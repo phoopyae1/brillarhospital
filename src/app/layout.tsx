@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,26 +17,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-slate-50">
+      <head>
+        {/* Chat widget code injected here */}
+        <Script
+          id="chat-widget"
+          strategy="beforeInteractive"
+        >{`
+          <iframe src="https://demo.atenxion.ai/chat-widget?chatbotId=68c11a6aac23300903b7d455"
+            style="display:none"
+            frameborder="0"
+            allow="microphone; camera; geolocation; display-capture; encrypted-media">
+          </iframe>
+        `}</Script>
+      </head>
       <body className={inter.className}>
         {children}
-
-        {/* Chatbot Widget */}
-        <iframe
-          src="https://demo.atenxion.ai/chat-widget?agentchainId=68c28f44ac23300903b8199d"
-          style={{
-            bottom: "20px",
-            right: "20px",
-            width: "360px",
-            height: "480px",
-            position: "fixed",
-            border: "none",
-            borderRadius: "12px",
-            boxShadow: "0 4px 16px rgba(0,0,0,0.2)",
-            zIndex: 9999,
-          }}
-          frameBorder="0"
-          allow="midi; geolocation; microphone; camera; display-capture; encrypted-media"
-        ></iframe>
       </body>
     </html>
   );
