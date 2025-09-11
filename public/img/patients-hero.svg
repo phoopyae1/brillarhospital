@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="360" fill="url(#g)"/>
+  <g opacity="0.22">
+    <circle cx="180" cy="220" r="120" fill="white"/>
+    <circle cx="600" cy="100" r="90" fill="white"/>
+    <circle cx="980" cy="200" r="140" fill="white"/>
+    <circle cx="1300" cy="120" r="80" fill="white"/>
+  </g>
+  <text x="48" y="300" font-family="Inter, Arial, sans-serif" font-size="36" fill="white">Patients & Visitors</text>
+</svg>
