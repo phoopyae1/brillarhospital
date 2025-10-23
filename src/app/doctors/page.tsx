@@ -32,7 +32,7 @@ export default function Page() {
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mt-6">
           {filtered.map((d) => (
-            <Link key={d.email} href={`/doctors/${d.slug}`} className="card transition hover:-translate-y-1 hover:shadow-lg">
+            <Link key={d.email} href={`/doctors/${d.slug}`} className="card">
               <div className="flex items-center justify-between">
                 <h3 className="font-semibold">{d.name}</h3>
                 <span className="text-xs rounded-full border px-2 py-0.5">{d.dept}</span>
