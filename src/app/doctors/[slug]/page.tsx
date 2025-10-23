@@ -82,6 +82,38 @@ export default function DoctorDetailPage({ params }: PageProps) {
                 </div>
               </dl>
             </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-slate-900">Achievements</h3>
+              <ul className="mt-4 list-disc space-y-3 pl-5 text-slate-700">
+                <li>
+                  Recognised for outstanding contributions to {doctor.dept.toLowerCase()} with multiple hospital-wide awards for
+                  patient care and innovation.
+                </li>
+                <li>
+                  Published peer-reviewed research advancing best practices in {doctor.dept.toLowerCase()} care and treatment
+                  approaches.
+                </li>
+                <li>
+                  Frequently invited speaker at regional medical conferences representing Brillar Hospital.
+                </li>
+              </ul>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-slate-900">Past experience</h3>
+              <ul className="mt-4 list-disc space-y-3 pl-5 text-slate-700">
+                <li>
+                  Former senior consultant at leading tertiary hospitals across Singapore specialising in complex {doctor.dept.toLowerCase()} cases.
+                </li>
+                <li>
+                  Completed advanced fellowship training overseas, bringing global insights back to local patient care.
+                </li>
+                <li>
+                  Mentored junior physicians and medical students as part of Brillar Hospital&apos;s clinical education programme.
+                </li>
+              </ul>
+            </div>
           </section>
 
           <DoctorAppointmentForm doctorName={doctor.name} />
