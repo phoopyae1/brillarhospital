@@ -11,12 +11,12 @@ export default function Header() {
           <img
             src="/img/brillar-logo.png"
             alt="Brillar Hospital"
-            className="h-8 w-auto"
+            className="h-12 w-auto"
           />
-          <div className="font-semibold">Brillar Hospital</div>
+          <div className="font-semibold text-sm">Brillar Hospital</div>
         </Link>
 
-        <nav className="flex gap-3 text-sm">
+        <nav className="flex gap-3 text-sm font-semibold">
           <Link href="/patients">Patients & Visitors</Link>
           <Link href="/services">Centres & Services</Link>
           <Link href="/doctors">Find a Doctor</Link>
@@ -24,14 +24,24 @@ export default function Header() {
           <Link href="/room-charges">Room Charges</Link>
         </nav>
 
-        <a
-          href="https://brillar-emr.onrender.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="ml-3 hidden sm:inline-flex items-center gap-2 rounded-xl px-4 py-2 border border-sky-600 bg-sky-500 text-white hover:brightness-95"
-        >
-          Staff/Doctor Login
-        </a>
+        <div className="flex items-center gap-2">
+          <a
+            href="https://patient-portal.atenxion.ai/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden sm:inline-flex items-center gap-2 rounded-xl px-4 py-2 border border-sky-600 bg-sky-500 text-white hover:brightness-95 font-semibold text-sm"
+          >
+            Patient Portal
+          </a>
+          <a
+            href="https://patient-portal.atenxion.ai/admin/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden sm:inline-flex items-center gap-2 rounded-xl px-4 py-2 border border-sky-600 bg-sky-500 text-white hover:brightness-95 font-semibold text-sm"
+          >
+            Staff/Doctor Login
+          </a>
+        </div>
       </div>
     </header>
   );
