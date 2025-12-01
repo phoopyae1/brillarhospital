@@ -17,7 +17,7 @@ export default function Page(){
 <li className='mt-1'>WhatsApp (Appointments): <a href="https://wa.me/6591234567" target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:underline">+65 9123 4567</a></li>
 </ul>
 <h2 className='text-xl font-semibold mt-8'>Visit Us</h2>
-<p className='mt-2 text-slate-700'>We're located in the heart of Singapore's medical district. Parking is available on-site with valet during selected hours.</p>
+<p className='mt-2 text-slate-700'>We&apos;re located in the heart of Singapore&apos;s medical district. Parking is available on-site with valet during selected hours.</p>
 <ul className='mt-2 list-disc pl-6 text-slate-700'>
 <li className='mt-1'>Address: 200 Healthcare Boulevard, Singapore 238850</li>
 <li className='mt-1'>MRT: Medical Centre (CC15), Exit 2</li>
