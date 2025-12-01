@@ -12,7 +12,7 @@ export default function Page(){
 <p className='mt-2 text-slate-700'>Choose a specialty or doctor, then contact us to find the earliest available slots. For non-urgent issues, teleconsult may be suitable after an initial assessment.</p>
 <ul className='mt-2 list-disc pl-6 text-slate-700'>
 <li className='mt-1'>Email: appointments@napiergardenshealth.sg</li>
-<li className='mt-1'>WhatsApp: +65 8111 9777</li>
+<li className='mt-1'>WhatsApp: <a href="https://wa.me/6591234567" target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:underline">+65 9123 4567</a></li>
 <li className='mt-1'>Share referral letters and preferred dates</li>
 </ul>
 <h2 className='text-xl font-semibold mt-8'>What to Bring</h2>

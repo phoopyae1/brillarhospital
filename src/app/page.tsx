@@ -27,10 +27,10 @@ export default function Home() {
           <div className="card">
             <h3 className="font-semibold">Key Contacts (Singapore)</h3>
             <p className="mt-2 text-sm text-slate-700">
-              <strong>Main Line:</strong> +65 6473 7222<br/>
-              <strong>UCC (24/7):</strong> +65 6470 5688<br/>
-              <strong>Ambulance:</strong> 1800-PARKWAY (727 5929)<br/>
-              <strong>WhatsApp (Appt):</strong> +65 8111 9777
+              <strong>Main Line:</strong> <a href="tel:+6561234567" className="text-sky-600 hover:underline">+65 6123 4567</a><br/>
+              <strong>UCC (24/7):</strong> <a href="tel:+6561234568" className="text-sky-600 hover:underline">+65 6123 4568</a><br/>
+              <strong>Ambulance:</strong> <a href="tel:1800123456" className="text-sky-600 hover:underline">1800 (123 456)</a><br/>
+              <strong>WhatsApp (Appt):</strong> <a href="https://wa.me/6591234567" target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:underline">+65 9123 4567</a>
             </p>
           </div>
           <div className="card lg:col-span-2">

@@ -5,7 +5,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Brillar Hospital | Napier Road, Singapore",
+  title: "Brillar Hospital | Healthcare Boulevard, Singapore",
   description:
     "Private acute-care hospital in Singapore. Same-day specialist access and 24/7 Urgent Care Centre.",
 };

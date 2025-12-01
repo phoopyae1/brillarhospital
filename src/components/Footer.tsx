@@ -5,10 +5,10 @@ export default function Footer(){
         <div>
           <div className="text-white font-semibold">Contact</div>
           <p className="mt-2 text-sm">
-            88 Napier Road<br/>Singapore 258522<br/>
-            General: +65 6473 7222<br/>
-            UCC (24/7): +65 6470 5688<br/>
-            Ambulance: 1800-PARKWAY (727 5929)
+            200 Healthcare Boulevard<br/>Singapore 238850<br/>
+            General: <a href="tel:+6561234567" className="text-sky-400 hover:underline">+65 6123 4567</a><br/>
+            UCC (24/7): <a href="tel:+6561234568" className="text-sky-400 hover:underline">+65 6123 4568</a><br/>
+            Ambulance: <a href="tel:1800123456" className="text-sky-400 hover:underline">1800 (123 456)</a>
           </p>
         </div>
         <div>

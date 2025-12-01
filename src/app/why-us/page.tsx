@@ -9,7 +9,7 @@ export default function Page(){
       <PageHero src="/img/photos/whyus.jpg" title="Why Choose Us" />
       <main className="mx-auto max-w-6xl px-4 py-10">
 <h2 className='text-xl font-semibold mt-8'>Our Hospital</h2>
-<p className='mt-2 text-slate-700'>A private acute-care facility in the Napier Road medical district offering modern diagnostics, comfortable wards, and coordinated inpatient and outpatient services.</p>
+<p className='mt-2 text-slate-700'>A private acute-care facility in the Healthcare Boulevard medical district offering modern diagnostics, comfortable wards, and coordinated inpatient and outpatient services.</p>
 <ul className='mt-2 list-disc pl-6 text-slate-700'>
 <li className='mt-1'>Specialist-led care pathways</li>
 <li className='mt-1'>Coordinated multi-disciplinary teams</li>
