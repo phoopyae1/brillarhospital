@@ -68,7 +68,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="px-3 py-1.5 text-xs font-semibold text-sky-600 border border-sky-600 rounded-lg hover:bg-sky-50 transition-colors"
             >
-              Portal
+              Patient Portal
             </a>
             <a
               href="https://patient-portal.atenxion.ai/admin/login"
