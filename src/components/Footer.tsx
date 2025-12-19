@@ -23,6 +23,7 @@ export default function Footer(){
           <div className="text-white font-semibold">Care</div>
           <ul className="mt-2 text-sm space-y-1">
             <li><a href="/services">Centres & Services</a></li>
+            <li><a href="/healthcare-packages">Healthcare Packages</a></li>
             <li><a href="/conditions">Conditions</a></li>
             <li><a href="/doctors">Find a Doctor</a></li>
           </ul>

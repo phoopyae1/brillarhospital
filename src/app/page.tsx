@@ -18,7 +18,7 @@ export default function Home() {
             <div key={c.t} className="card">
               <h3 className="font-semibold">{c.t}</h3>
               <p className="mt-1 text-sm text-slate-600">{c.d}</p>
-              <a className="mt-3 inline-flex text-sky-700" href="/services">Learn more →</a>
+              <a className="mt-3 inline-flex text-sky-700 hover:underline" href={c.t === "Health Screening" ? "/healthcare-packages" : "/services"}>Learn more →</a>
             </div>
           ))}
         </div>
